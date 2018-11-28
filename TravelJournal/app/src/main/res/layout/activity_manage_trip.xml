@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin_app"
+    tools:context=".ManageTripActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trip"
+        android:textSize="@dimen/trip_text_size"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:drawableLeft="@drawable/ic_info_outline_black"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/destination"
+        android:textSize="@dimen/trip_text_size"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:drawableLeft="@drawable/ic_edit_location_black"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trip_type"
+        android:textSize="@dimen/trip_text_size"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/margin_app">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city_break"
+            android:textSize="@dimen/trip_type"
+            android:textColor="@color/radio_button"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seaside"
+            android:textSize="@dimen/trip_type"
+            android:textColor="@color/radio_button"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mountains"
+            android:textSize="@dimen/trip_type"
+            android:textColor="@color/radio_button"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prize_eur"
+        android:textSize="@dimen/trip_text_size"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="100"
+        android:max="2000"
+        android:progress="300"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/margin_app">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_date"
+                android:textStyle="bold"
+                android:textSize="@dimen/trip_text_size"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dd_mm_yyyy"
+                android:textSize="@dimen/button_date"
+                android:paddingEnd="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/end_date"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/trip_text_size"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dd_mm_yyyy"
+                    android:textSize="@dimen/button_date"
+                    android:paddingRight="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating"
+        android:textSize="@dimen/trip_text_size"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_app"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textSize="@dimen/trip_text_size"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/bottom_button"
+        android:layout_marginStart="@dimen/margin_app"
+        android:layout_marginEnd="@dimen/margin_app"/>
+
+</LinearLayout>

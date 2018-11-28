@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="trip_text_size">24sp</dimen>
+    <dimen name="trip_type">20sp</dimen>
+    <dimen name="button_date">20sp</dimen>
+    <dimen name="button_padding">40dp</dimen>
+    <dimen name="bottom_button">16dp</dimen>
+    <dimen name="margin_app">8dp</dimen>
+</resources>

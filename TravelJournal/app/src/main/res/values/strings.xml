@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Travel Journal</string>
+    <string name="trip">Trip Name</string>
+    <string name="destination">Destination</string>
+    <string name="save">Save</string>
+    <string name="rating">Rating</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="city_break">City break</string>
+    <string name="seaside">Seaside</string>
+    <string name="mountains">Mountains</string>
+    <string name="prize_eur">Prize(eur)</string>
+    <string name="trip_type">Trip Type</string>
+</resources>
